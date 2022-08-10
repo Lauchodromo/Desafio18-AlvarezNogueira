@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block titulo %}
+Busqueda de planes
+{% endblock %}
+     
+
+{% block contenido_que_cambia %}
+
+    {% for plan in plans %}
+     <div class="card" style="width: 18rem;">
+        <img src="https://t1.uc.ltmcdn.com/es/posts/5/8/6/cuantas_calorias_se_queman_en_el_gym_48685_orig.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{plan.title}}</h5>
+          <p class="card-text">Su precio es de: {{plan.price}}</p>
+          <p class="card-text">{{plan.description}}</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    {% endfor %}
+
+{% endblock %}

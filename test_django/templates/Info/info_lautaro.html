@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block titulo %}
+Acerca de mi
+{% endblock %}
+     
+
+{% block contenido_que_cambia %}
+
+    <h1>Hola! Mi nombre es {{info_lautaro.name}}</h1>
+    <h2>Tengo {{info_lautaro.age}}</h2>
+    <h3>Quien soy?: {{info_lautaro.description}}</h3>
+
+{% endblock %}
