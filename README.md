@@ -11,3 +11,7 @@ Pagina principal con:
 -3 objetos creados como "productos"
 -Posibilidad de agregar productos desde el mismo /traning_plan/ o tambien desde la web admin de django
 -Utilizaion de bootstrap para navbar y tipografia 
+
+
+-IMPORTANTE: 
+No supe como eliminar el desafio anterior de los miembros de la familia, no son parte de esta entrega. 
